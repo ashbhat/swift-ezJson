@@ -11,8 +11,6 @@ import Foundation
 
 class ezJson{
     func createRequest(myUrl : String, type : String, params : NSDictionary?, completion : (AnyObject?, NSError?)->Void ){
-        var defaultConfigObject = NSURLSessionConfiguration.defaultSessionConfiguration()
-        var defaultSession = NSURLSession(configuration: defaultConfigObject, delegate: nil, delegateQueue: NSOperationQueue.mainQueue())
         var url = NSURL(string: myUrl)
         var request = NSMutableURLRequest(URL: url, cachePolicy: NSURLRequestCachePolicy.UseProtocolCachePolicy, timeoutInterval: 60.0)
         if params{
