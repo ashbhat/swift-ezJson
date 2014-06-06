@@ -11,20 +11,20 @@ Post Request
 ---
 
 ```
-        ezJson().createRequest("http://postRequestURL.com", type: "POST", params: ["key" : "value"], completion: {(returnedObject : AnyObject?, error : NSError?)in
+ezJson().createRequest("http://postRequestURL.com", type: "POST", params: ["key" : "value"], completion: {(returnedObject : AnyObject?, error : NSError?)in
             if returnedObject{
                 println("data = \(returnedObject)")
             }
-            })
+})
 ```
     
 Get Request
 ---
 
 ```
-        ezJson().createRequest("http://getRequestURL.com", type: "GET", params: nil, completion: {(returnedObject : AnyObject?, error : NSError?)in
+ezJson().createRequest("http://getRequestURL.com", type: "GET", params: nil, completion: {(returnedObject : AnyObject?, error : NSError?)in
             if returnedObject{
                 println("data = \(returnedObject)")
             }
-            })
+})
 ```
