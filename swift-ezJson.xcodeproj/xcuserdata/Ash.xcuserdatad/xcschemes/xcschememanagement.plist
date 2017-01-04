@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>ezJson.xcscheme</key>
+		<key>swift-ezJson.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5EBD99CC193FC946007A73B3</key>
+		<key>5E4615D31E1D7849007B807D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5EBD99DE193FC946007A73B3</key>
+		<key>5E4615E71E1D7849007B807D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5E4615F21E1D7849007B807D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
